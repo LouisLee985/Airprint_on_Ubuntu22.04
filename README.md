@@ -9,9 +9,8 @@ sudo systemctl status cups
 
 ```
 sudo cp -Rf cupsd.conf /etc/cups/cupsd.conf
-
 sudo systemctl restart cups
 ```
-It's from:
-https://linuxhint.com/set-up-cups-printer-server-ubuntu-22-04/
+<br>It's from:
+<br>https://linuxhint.com/set-up-cups-printer-server-ubuntu-22-04/
 
