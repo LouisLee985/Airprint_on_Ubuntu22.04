@@ -2,13 +2,21 @@
 
 ```
 sudo apt install cups
+```
+```
 sudo systemctl start cups
+```
+```
 sudo systemctl enable cups
+```
+```
 sudo systemctl status cups
 ```
 
 ```
 sudo cp -Rf cupsd.conf /etc/cups/cupsd.conf
+```
+```
 sudo systemctl restart cups
 ```
 <br>It's from:
