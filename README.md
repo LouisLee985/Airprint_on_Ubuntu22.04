@@ -19,6 +19,15 @@ sudo cp -Rf cupsd.conf /etc/cups/cupsd.conf
 ```
 sudo systemctl restart cups
 ```
+On_Ubuntu22.04
+<br>Step 1: Firstly, the CUPS printer server is not added to your printers list. To add it, open the “Settings“.
+<br>Scroll down the left pane and choose “Printers” and you will find a green button “Add a Printer“.
+<br>Once you click on the “Add a Printer” button, you will get the CUPS printer in the list as shown below. Select it and click on “Add” to add CUPS to the printers list.
+<br>After doing so, it is observed that the CUPS will be added to your printer list and is ready to serve you as can be seen from the following image.
+
+<br>Step 2: Once the printer is added to the list, you can print any file using the CUPS printer server. Head over to the file you want to get printed. Open it and press “CTRL+P“.
+
+
 <br>It's from:
 <br>https://linuxhint.com/set-up-cups-printer-server-ubuntu-22-04/
 
